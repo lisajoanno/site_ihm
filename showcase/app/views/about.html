@@ -1,0 +1,18 @@
+<div>
+
+  <h2 class="colored">Here, you can find my experiences, human or professional.</h2><br><br>
+
+  <table ng-repeat="exp in modele.experience">
+    <tr>
+      <td>
+        <img src="{{exp.logo}}" alt="" /><br>
+        <p><strong>{{ exp.titre }} - {{exp.annee}}</strong></p><br>
+        <p>Type of experience : {{exp.type}}</p>
+        <p>During {{exp.duree}} months, in {{exp.entreprise}}</p>
+        <p>Notes : {{ exp.remarques }}</p><br>
+      </td>
+    </tr>
+  </table>
+
+
+</div>

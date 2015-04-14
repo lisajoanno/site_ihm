@@ -1,0 +1,28 @@
+<div>
+  <p>
+    <h2 class="colored">Who am I ?</h2> <br>
+    <h3>{{modele.general}}</h3><br>
+    <p class="flotte">
+      <img src="{{modele.lienImage}}" alt="" />
+    </p>
+    First name : {{modele.prenom}} <br>
+    Name : {{modele.nom}} <br>
+    Age : {{modele.age}} years old <br>
+    Date of birth : {{modele.dateDeNaissance}} <br>
+    {{modele.langues}} <br>
+    I can work with : {{modele.langagesProg}} <br><br><br><br><br><br>
+
+    <h2 class="colored">Education : </h2> <br><br>
+
+  <table ng-repeat="forma in modele.formation">
+    <tr>
+      <td>
+        <img src="{{forma.logo}}" alt="" /><br>
+        <strong>{{ forma.debut }} - {{ forma.fin }}</strong><br>
+        <p>Place : {{ forma.etablissement }}</p>
+        <p>Diploma : {{ forma.diplome }}</p><br>
+      </td>
+    </tr>
+  </table>
+  </p>
+</div>

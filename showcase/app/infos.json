@@ -1,0 +1,55 @@
+{
+  "general": "I am a french student in computer engineering, and this is my website.",
+  "prenom": "Lisa",
+  "nom": "Joanno",
+  "email": "lisa.joanno@gmail.com",
+  "age": 20,
+  "dateDeNaissance": "13/12/1994",
+  "adresse1": "91 avenue du Mont Quirinal",
+  "adresse2": "La Pinède Romane",
+  "adresse3": "83600 Fréjus, France",
+  "drapeauFR" : "images/drapeau_fr.png",
+  "tel": "+33630456136",
+  "langues" : "Fluent in french and english, basics in spanish",
+  "lienImage": "images/photo.jpg",
+  "langagesProg": "Java, C, HTML, CSS, JS",
+	"experience" :
+		[{
+			"type" : "Human",
+			"annee" : 2014,
+			"duree" : "-",
+      "logo" : "images/logo_efs.jpg",
+      "titre" : "Organisation of a blood collection",
+			"entreprise" : "Etablissement Français du Sang",
+			"remarques" : "A very rewarding experience, where I learned a lot from people working to save lives."
+		},{
+			"type" : "Job",
+			"annee" : 2014,
+			"duree" : 2.5,
+      "logo" : "images/foirfouille_logo.jpg",
+      "titre": "Summer job",
+			"entreprise" : "La Foir'Fouille",
+			"remarques" : "My first experience in a professional environment. "
+		}],
+
+	"formation" :
+		[{
+      "logo": "images/logo_polytech.jpg",
+			"debut" : 2014,
+			"fin" : "today",
+			"etablissement" : "Ecole Polytechnique Universitaire Polytech'Nice Sophia (Graduate Engineering School), Sophia-Antipolis, France. Section «Informatique» (Computing sciences).",
+			"diplome" : "In progress"
+		},{
+      "logo": "images/logo_polytech.jpg",
+			"debut" : 2012,
+			"fin" : 2014,
+			"etablissement" : "C.I.P at Polytech'Nice Sophia (two-year in-school preparatory degree in engineering).",
+			"diplome" : "Valid preparatory degree"
+		},{
+      "logo": "",
+			"debut" : 2011,
+			"fin" : 2012,
+			"etablissement" : "Lycée Albert Camus, Fréjus, France",
+			"diplome" : "Baccalauréat « SSI » (scientific subjects, engineering oriented)."
+		}]
+}
